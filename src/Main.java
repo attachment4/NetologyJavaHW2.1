@@ -6,10 +6,9 @@ public class Main {
 
 
         int bonusRubRefil;
-        if (refilBalance >= 1000) {
+        if (refilBalance > 1000) {
             bonusRubRefil = refilBalance / 100;
-        }
-        else{
+        } else {
             bonusRubRefil = 0;
         }
 
